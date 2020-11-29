@@ -6,19 +6,6 @@
     </mat-card-header>
     <mat-card-content>
 
-      <!-- LESSON LIST -->
-      <!-- example of bind to an object and dump out its contents for debugging  -->
-      <!-- <pre>{{courseLessons | json}}</pre> -->
-      {{themeColor}}
-      <hr/>
-      <h3 [style.color]="themeColor">Theme Colored Text</h3>
-      <hr/>
-      <input [(ngModel)]="themeColor" type="text" name="themeColor">
-      <hr/>
-
-      <button mat-raised color="primary" (click)="updateColor()">Update Theme Color</button>
-      <!-- can bind to any DOM event  -->
-      <button mat-raised color="warn" (mouseover)="initialColor()">Mouseover Event</button>
-      
+ 
     </mat-card-content>
   </mat-card>
